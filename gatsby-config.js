@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Maryland Day 2019`,
+    title: `TERP`,
     description: `Maryland Day is the university's largest community outreach event. The University of Maryland opens its doors and invites the community to enjoy a day of learning, fun and discovery. Attendees are encouraged to explore our world of Fearless Ideas.`,
     author: `@brooksrelyt`,
   },

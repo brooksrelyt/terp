@@ -1,16 +1,18 @@
 .navbar {
-	background-color: $umd_offwhite;
+	margin-top: 3em;
+	background-color: #fff;
+	border-bottom: 3px solid $umd_offwhite;
 
-	.navbar-brand {
-		width: 50%;
-
-		.brand-logo {
-			max-width: 300px;
-			margin-bottom: 0;
-		}
-	}
 
 	.nav-item {
 		margin-bottom: 0;
+
+		a {
+			color: $body-color;
+			text-transform: uppercase;
+			font-weight: 600;
+			letter-spacing: 1px;
+			margin: 0 1em;	
+		}
 	}
 }

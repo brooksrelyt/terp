@@ -1,7 +1,6 @@
 import React from 'react'
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap'
-
-import mddaylogo from "../img/marylanddaylogo.svg"
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, 
+  UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap'
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -19,24 +18,18 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Navbar light expand="md">
-          <NavbarBrand href="/"><img className="brand-logo" src={mddaylogo} alt="University of Maryland Logo" /></NavbarBrand>
+      <div className="container">
+        <Navbar expand="md">
+          <NavbarBrand href="/" className="d-block d-sm-none">TERP</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="mx-auto" navbar>
               <NavItem>
                 <NavLink href="/">Home</NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="/planning/">Planning Section</NavLink>
-              </NavItem>
-              <NavItem>
-                <a className="btn nav-btn" href="https://mddayapp.umd.edu/">Submit Event</a>
-              </NavItem>
-              {/*<UncontrolledDropdown nav inNavbar>
+              <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
-                  Options
+                  Current Issue
                 </DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem>
@@ -50,7 +43,16 @@ export default class Example extends React.Component {
                     Reset
                   </DropdownItem>
                 </DropdownMenu>
-              </UncontrolledDropdown>*/}
+              </UncontrolledDropdown>
+              <NavItem>
+                <NavLink href="/">Archives</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/">Letters to the Editor</NavLink>
+              </NavItem>
+               <NavItem>
+                <NavLink href="/">Contact Us</NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>

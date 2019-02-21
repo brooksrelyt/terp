@@ -1,34 +1,89 @@
 /* eslint-disable */
 import React from 'react'
 import { Link } from 'gatsby'
+import { ListGroup, ListGroupItem, Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button } from 'reactstrap';
 
 import SEO from '../components/seo'
 import Layout from '../components/layout'
+import Header from '../components/header'
+import Footer from '../components/footer'
 
-import Background from '../img/background.gif';
+// import Background from '../img/background.gif';
 
 const IndexPage = () => (
   <div>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div class="hero-wrapper">
-      <div id="hero" class="header-banner" style={{background: 'url(' + `${Background}` + ')'}} role="img" aria-label="website hero banner image for Maryland Day 2019"></div>
-      <div class="container h-textarea">
-        <div class="row">
-          <div class="col-lg-12 columns h-textarea-inner">
-            <div class="textarea-intro center">
-              <div class="hero-box fadeInDown">
-                <div class="hero-box-inner">
-                  <h1 class="white uppercase large no-marg-top">Maryland Day<br />APRIL 27, 2019</h1>
-                  <h5 class="white uppercase">10 A.M.-4 P.M. / Free Admission and Parking</h5>
-                  <hr />
-                  <p class="white">Enjoy a day of learning, fun and discovery. At the 21st annual Maryland Day, you’ll find a wide variety of family-friendly events and activities where you can explore our world of Fearless Ideas.</p>
-                </div>
-              </div>
-            </div>
-          </div>
+    <Header />
+    <div className="container">
+      <div className="row">
+        <div className="col-12">
+          <img className="img-fluid med-spaces" src="https://via.placeholder.com/1800x600" alt=" " />
         </div>
       </div>
+
+      <div className="row">
+        <section className="col-9">
+          <div className="row">
+            <div className="col-md-6">
+              <Card className="mb-5">
+                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                </CardBody>
+              </Card>
+            </div>
+
+            <div className="col-md-6">
+              <Card className="mb-5">
+                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                </CardBody>
+              </Card>
+            </div>
+
+            <div className="col-md-6">
+              <Card className="mb-5">
+                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                </CardBody>
+              </Card>
+            </div>
+
+            <div className="col-md-6">
+              <Card className="mb-5">
+                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <CardBody>
+                  <CardTitle>Card title</CardTitle>
+                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                </CardBody>
+              </Card>
+            </div>
+          </div>
+        </section>
+        <aside className="col-3">
+          <ListGroup flush>
+            <ListGroupItem disabled tag="a" href="#">Cras justo odio</ListGroupItem>
+            <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
+            <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
+            <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
+            <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
+          </ListGroup>
+        </aside>
+      </div>
     </div>
+
+
+    <Footer />
   </div>
 )
 
