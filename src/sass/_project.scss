@@ -1,0 +1,93 @@
+.mdday-event {
+	// border-bottom: 1px solid $border-color;
+	border-bottom: 1px solid rgb(241, 241, 241);
+
+	&:hover, &:focus {
+		background-color: $umd_light;
+	}
+
+	.event-sub {
+		color: $textgray;
+		font-size: 14px;
+	}
+
+	.event-date {
+		font-weight: bold;
+		font-size: 13px;
+		text-transform: uppercase;
+	}
+
+	.event-btn {
+		background-color: #ededed;
+	    color: #686868;
+	    border: 0;
+	    border-radius: 0;
+	    padding: 10px 15px;
+	    text-transform: uppercase;
+	    cursor: pointer;
+
+	    @include media-breakpoint-down(md) {
+			margin-top: 1.5em;
+			display: inline-block;
+		}
+
+	    &:nth-child(2) { margin-left: 15px; }
+
+	    span {
+	    	font-size: 11px;
+	    	line-height: 11px;
+	    	font-weight: bold;
+	    	letter-spacing: 1px;
+	    }
+
+	    &:hover, &:focus {
+	    	color: #fff !important;
+	    	background-color: $umd_red;
+	    }
+	}
+
+	.special {
+		width: 100%;
+	}
+}
+
+.planning-link {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background-color: $umd_red;
+	padding: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+
+	.slide-link {
+		margin-bottom: 0px;
+	}
+}
+
+.sidebar {
+	.side-event-btn {
+		width: 100%;
+		border-radius: 0;
+		margin-top: 2em;
+		
+		color: #fff;
+		background-color: $umd_red;
+
+		&:hover, &:focus {
+			background-color: $umd_dkred;
+			border-color: $umd_dkred; 
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.navbar {
+	background-color: $umd_offwhite;
+
+	.navbar-brand {
+		width: 50%;
+
+		.brand-logo {
+			max-width: 300px;
+			margin-bottom: 0;
+		}
+	}
+
+	.nav-item {
+		margin-bottom: 0;
+	}
+}

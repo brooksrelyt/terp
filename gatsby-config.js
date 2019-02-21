@@ -1,16 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Maryland Day 2019`,
+    description: `Maryland Day is the university's largest community outreach event. The University of Maryland opens its doors and invites the community to enjoy a day of learning, fun and discovery. Attendees are encouraged to explore our world of Fearless Ideas.`,
+    author: `@brooksrelyt`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `img`,
+        path: `${__dirname}/src/img`,
       },
     },
     `gatsby-transformer-sharp`,
@@ -24,7 +25,17 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/img/favicon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: "GTM-K662TG9",
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

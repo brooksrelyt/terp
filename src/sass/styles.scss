@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "variables";
+@import "normalize";
+@import "mixins";
+@import "base";
+
+// // Utilities
+@import "util/typography";
+@import "util/animations";
+// @import "util/print";
+
+// // COMPONENTS - Self-contained components
+@import "components/header";
+@import "components/footer";
+@import "components/tabs";
+@import "components/accordion";
+@import "components/modal";
+@import "components/hero-banner";
+@import "components/nav";
+// @import "components/cards";
+// @import "components/slider";
+
+// Styles Specific to new project
+@import "project";
+
+
