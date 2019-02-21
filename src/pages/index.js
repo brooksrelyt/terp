@@ -15,85 +15,121 @@ const IndexPage = () => (
   <div>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <Header />
-    <div className="container">
-      <div className="row">
+    <div className="container mb-5">
+      <div className="row mb-5">
         <div className="col-12">
           <img className="img-fluid med-spaces" src="https://via.placeholder.com/1800x600" alt=" " />
         </div>
       </div>
 
       <div className="row">
-        <section className="col-9">
+        <section className="col-md-9">
           <div className="row">
             <div className="col-md-6">
               <Card className="mb-5">
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <a href="/">
+                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                </a>
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <a href="/">
+                    <CardTitle>Card title</CardTitle>
+                  </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  <CardText className="footer">
+                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
+                  </CardText>
                 </CardBody>
               </Card>
             </div>
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <a href="/">
+                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                </a>
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <a href="/">
+                    <CardTitle>Card title</CardTitle>
+                  </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  <CardText className="footer">
+                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
+                  </CardText>
                 </CardBody>
               </Card>
             </div>
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <a href="/">
+                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                </a>
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <a href="/">
+                    <CardTitle>Card title</CardTitle>
+                  </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  <CardText className="footer">
+                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
+                  </CardText>
                 </CardBody>
               </Card>
             </div>
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <a href="/">
+                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                </a>
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <a href="/">
+                    <CardTitle>Card title</CardTitle>
+                  </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  <CardText className="footer">
+                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
+                  </CardText>
                 </CardBody>
               </Card>
             </div>
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <a href="/">
+                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                </a>
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <a href="/">
+                    <CardTitle>Card title</CardTitle>
+                  </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  <CardText className="footer">
+                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
+                  </CardText>
                 </CardBody>
               </Card>
             </div>
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                <a href="/">
+                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+                </a>
                 <CardBody>
-                  <CardTitle>Card title</CardTitle>
-                  <CardSubtitle>Card subtitle</CardSubtitle>
+                  <a href="/">
+                    <CardTitle>Card title</CardTitle>
+                  </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+                  <CardText className="footer">
+                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
+                  </CardText>
                 </CardBody>
               </Card>
             </div>
-            
+
           </div>
         </section>
-        <aside className="col-3">
+        <aside className="col-md-3">
           <div>
             <ListGroup flush className="mb-3">
               <ListGroupItem disabled tag="a" href="#">Recent Posts</ListGroupItem>
