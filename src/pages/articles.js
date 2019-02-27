@@ -131,44 +131,32 @@ const IndexPage = () => (
         </section>
         <aside className="col-md-3">
           <div>
-            <ListGroup flush>
+            <ListGroup flush className="mb-3">
               <ListGroupItem disabled tag="a" href="#">Recent Posts</ListGroupItem>
               <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
-              <span>February 27, 2019</span>
             </ListGroup>
           </div>
 
           <div>
-            <ListGroup flush>
+            <ListGroup flush className="mb-3">
               <ListGroupItem disabled tag="a" href="#">Web Only</ListGroupItem>
               <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
-              <span>February 27, 2019</span>
             </ListGroup>
           </div>
 
           <div>
-            <ListGroup flush>
+            <ListGroup flush className="mb-3">
               <ListGroupItem disabled tag="a" href="#">Popular Posts</ListGroupItem>
               <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
-              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
-              <span>February 27, 2019</span>
             </ListGroup>
           </div>
         </aside>
