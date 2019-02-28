@@ -13,150 +13,87 @@ import Footer from '../components/footer'
 
 const IndexPage = () => (
   <div>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Article" keywords={[`gatsby`, `application`, `react`]} />
     <Header />
-    <div className="container mb-5">
-      <div className="row mb-5">
-        <div className="col-12">
-          <img className="img-fluid med-spaces" src="https://via.placeholder.com/1800x600" alt=" " />
-        </div>
-      </div>
-
+    
+    <div className="container spaces article">
       <div className="row">
         <section className="col-md-9">
-          <div className="row">
-            <div className="col-md-6">
-              <Card className="mb-5">
-                <a href="/">
-                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                </a>
-                <CardBody>
-                  <a href="/">
-                    <CardTitle>Card title</CardTitle>
-                  </a>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <CardText className="footer">
-                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
-                  </CardText>
-                </CardBody>
-              </Card>
-            </div>
+          <div className="tag-list">
+            <ul class="list-inline">
+              <li class="list-inline-item"><a href="">Highlighted</a></li>
+              <li class="list-inline-item"><a href="">Innovation</a></li>
+              <li class="list-inline-item"><a href="">Web Only</a></li>
+              <li class="list-inline-item">February 28, 2019</li>
+            </ul>
+          </div>
+          <h1>Faster Is Lighter</h1>
+          <img className="img-fluid no-pad-top med-spaces" src="https://via.placeholder.com/1920x1080" alt=" " />
+          <div className="row article-content">
+            <div className="col-md-10 offset-md-1">
+              <h2 className="subheader">Kinesiology Researchers Cast New Light on Conventional Wisdom About Running Injuries</h2>
+              <div className="author"> 
+                <p>By <a href="/">Jane Doe</a> | Photos by <a href="/">ISTOCK</a></p>
+                <hr />
+              </div>
+              <div>
+                <p>Stress fractures of the shin bones are one of the most common injuries that put runners on the couch, and athletes often simply slow down in an attempt to avoid them. But according to recently published research from the Department of Kinesiology, running fast doesn’t actually cause any more strain on runners’ tibias than running at a slower pace does.</p>
 
-            <div className="col-md-6">
-              <Card className="mb-5">
-                <a href="/">
-                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                </a>
-                <CardBody>
-                  <a href="/">
-                    <CardTitle>Card title</CardTitle>
-                  </a>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <CardText className="footer">
-                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
-                  </CardText>
-                </CardBody>
-              </Card>
-            </div>
+                <p>Assistant Professor Ross Miller and his research team, including doctoral students Jessica Hunter and Gina Garcia and Associate Professor Jae Kun Shim, studied 43 recreational runners as they circled a 50-meter track, first at a self-chosen moderate speed, and again alternating between slow and fast speeds.</p>
 
-            <div className="col-md-6">
-              <Card className="mb-5">
-                <a href="/">
-                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                </a>
-                <CardBody>
-                  <a href="/">
-                    <CardTitle>Card title</CardTitle>
-                  </a>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <CardText className="footer">
-                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
-                  </CardText>
-                </CardBody>
-              </Card>
-            </div>
+                <p>While each participant ran, the researchers measured three variables that affect the stress on their tibias: how quickly they transfer their weight onto their leg when taking a step, the pattern of their foot’s movement on the ground and how much weight their legs ultimately bore.</p>
 
-            <div className="col-md-6">
-              <Card className="mb-5">
-                <a href="/">
-                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                </a>
-                <CardBody>
-                  <a href="/">
-                    <CardTitle>Card title</CardTitle>
-                  </a>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <CardText className="footer">
-                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
-                  </CardText>
-                </CardBody>
-              </Card>
-            </div>
+                <p>The researchers found that conventional wisdom didn’t pan out: Both speeds contributed similarly to the stresses related to the first two variables, but when it came to the third, slow running caused participants’ tibias to bear more cumulative weight than fast running did. That’s because, when a runner’s pace slows, their stride shortens and their feet are in contact with the ground longer. The findings were published in the journal Medicine & Science in Sports & Exercise.</p>
 
-            <div className="col-md-6">
-              <Card className="mb-5">
-                <a href="/">
-                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                </a>
-                <CardBody>
-                  <a href="/">
-                    <CardTitle>Card title</CardTitle>
-                  </a>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <CardText className="footer">
-                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
-                  </CardText>
-                </CardBody>
-              </Card>
-            </div>
+                <p>“Of the variables we tested, the difference in step length between the fast and slow speeds had the greatest effect on cumulative tibial load,” Hunter told Runner’s World in an interview about the research. “Since step lengths were shorter at slower speeds, subjects needed to take more steps while running slower.”</p>
 
-            <div className="col-md-6">
-              <Card className="mb-5">
-                <a href="/">
-                  <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
-                </a>
-                <CardBody>
-                  <a href="/">
-                    <CardTitle>Card title</CardTitle>
-                  </a>
-                  <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-                  <CardText className="footer">
-                    <span><a className="comment" href="/">0 Comment</a></span><span className="date">February 21, 2019</span>
-                  </CardText>
-                </CardBody>
-              </Card>
-            </div>
+                <p>Because stress fractures are often attributed to running too fast or too intensely, interval training—alternating between fast and slow speeds—is thought to decrease risk of injury. Little is known, though, about how changing speeds affects the strain placed on a runner’s shins. This study clarifies the effect of interval training on stress fracture risk, suggesting that runners can add more fast running to their training programs without increasing their chance of injury.</p>
 
+                <p>The study also has implications for how runners calculate the intensity of their workouts. Runners often measure the strain placed on their body by tracking the total distance and average speed of their runs, but the study’s results show that additional variables like changes in speed should also be tracked.</p>
+              </div>
+            </div>
           </div>
         </section>
         <aside className="col-md-3">
           <div>
-            <ListGroup flush className="mb-3">
+            <ListGroup flush>
               <ListGroupItem disabled tag="a" href="#">Recent Posts</ListGroupItem>
               <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
+              <span>February 27, 2019</span>
             </ListGroup>
           </div>
 
           <div>
-            <ListGroup flush className="mb-3">
+            <ListGroup flush>
               <ListGroupItem disabled tag="a" href="#">Web Only</ListGroupItem>
               <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
+              <span>February 27, 2019</span>
             </ListGroup>
           </div>
 
           <div>
-            <ListGroup flush className="mb-3">
+            <ListGroup flush>
               <ListGroupItem disabled tag="a" href="#">Popular Posts</ListGroupItem>
               <ListGroupItem tag="a" href="#">Dapibus ac facilisis in</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Morbi leo risus</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Porta ac consectetur ac</ListGroupItem>
+              <span>February 27, 2019</span>
               <ListGroupItem tag="a" href="#">Vestibulum at eros</ListGroupItem>
+              <span>February 27, 2019</span>
             </ListGroup>
           </div>
         </aside>

@@ -34,3 +34,29 @@
 		margin-bottom: 0.5em;
 	}
 }
+
+.tag-list {
+	li {
+		color: $textgray;
+		font-size: 13px;
+		line-height: 16px;
+
+		&:last-child {
+			content: " ";
+		}
+
+		&:after {
+			content: "/";
+			padding-left: 10px;
+			margin-right: 5px;
+		}
+		a {
+			color: $textgray;
+
+			&:hover, &:focus {
+				color: $umd_dkred;
+
+			}
+		}
+	}
+}

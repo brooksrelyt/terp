@@ -44,11 +44,11 @@ const IndexPage = () => (
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <a href="/">
+                <a href="/articles">
                   <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                 </a>
                 <CardBody>
-                  <a href="/">
+                  <a href="/articles">
                     <CardTitle>Card title</CardTitle>
                   </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -61,11 +61,11 @@ const IndexPage = () => (
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <a href="/">
+                <a href="/articles">
                   <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                 </a>
                 <CardBody>
-                  <a href="/">
+                  <a href="/articles">
                     <CardTitle>Card title</CardTitle>
                   </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -78,11 +78,11 @@ const IndexPage = () => (
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <a href="/">
+                <a href="/articles">
                   <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                 </a>
                 <CardBody>
-                  <a href="/">
+                  <a href="/articles">
                     <CardTitle>Card title</CardTitle>
                   </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -95,11 +95,11 @@ const IndexPage = () => (
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <a href="/">
+                <a href="/articles">
                   <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                 </a>
                 <CardBody>
-                  <a href="/">
+                  <a href="/articles">
                     <CardTitle>Card title</CardTitle>
                   </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
@@ -112,11 +112,11 @@ const IndexPage = () => (
 
             <div className="col-md-6">
               <Card className="mb-5">
-                <a href="/">
+                <a href="/articles">
                   <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
                 </a>
                 <CardBody>
-                  <a href="/">
+                  <a href="/articles">
                     <CardTitle>Card title</CardTitle>
                   </a>
                   <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
