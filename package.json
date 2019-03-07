@@ -15,6 +15,7 @@
     "gatsby-plugin-sass": "^2.0.7",
     "gatsby-plugin-sharp": "^2.0.18",
     "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-source-graphql": "^2.0.11",
     "gatsby-transformer-sharp": "^2.1.12",
     "node-sass": "^4.11.0",
     "prop-types": "^15.6.2",
@@ -41,5 +42,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "resolutions": {
+    "graphql": "^14.1.1"
   }
 }

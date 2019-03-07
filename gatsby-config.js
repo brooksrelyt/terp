@@ -38,6 +38,14 @@ module.exports = {
         includeInDevelopment: false,
       },
     },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `HUBAPI`,
+        fieldName: `umdHub`,
+        url: `https://hub-middleware.netlify.com/.netlify/functions/express/graphql/`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
     // 'gatsby-plugin-offline',
