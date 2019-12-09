@@ -43,7 +43,7 @@ module.exports = {
       options: {
         typeName: `HUBAPI`,
         fieldName: `umdHub`,
-        url: `https://hub-middleware.netlify.com/.netlify/functions/express/graphql/`,
+        url: `https://umd-hub.herokuapp.com/graphql/`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
